@@ -31,8 +31,8 @@ ports_description:
   993/tcp: IMAPS
 hassio_api: true
 options:
-  my_hostname: mydomain.no-ip.com
-  domain_name: mydomain.no-ip.com
+  my_hostname: localhost
+  domain_name: localhost
   admin_user: admin
   admin_password:
   letsencrypt_certs: false
