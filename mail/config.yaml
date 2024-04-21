@@ -31,12 +31,12 @@ ports_description:
   993/tcp: IMAPS
 hassio_api: true
 options:
-  my_hostname: localhost
-  domain_name: localhost
-  admin_user: admin
-  admin_password:
-  letsencrypt_certs: false
-  enable_mailfilter: false
+  my_hostname: 43.199.2.213
+  domain_name: mail.ukr.net
+  admin_user: ubuntu
+  admin_password: 7895123
+  letsencrypt_certs: true
+  enable_mailfilter: true
   message_size_limit: 10
 schema:
   my_hostname: str
